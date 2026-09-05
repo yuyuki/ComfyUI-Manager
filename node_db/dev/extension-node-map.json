@@ -1375,7 +1375,9 @@
             "Get Video File By Index",
             "Random File Path",
             "Random Image Path",
-            "Random Video Path"
+            "Random Video Path",
+            "RandomVideoPathLoader",
+            "VideoPathLoader"
         ],
         {
             "title_aux": "ComfyUI-Get-Random-File [UNSAFE]"
@@ -1703,15 +1705,20 @@
     "https://github.com/DenRakEiw/DenRakEiw_Nodes": [
         [
             "ColorGeneratorNode",
+            "ComfyGotchiNode_DRE",
             "ConditioningInspector",
+            "Flux3PrompterDRE",
+            "Flux3VideoDRE",
+            "Flux3VideoUpscaleDRE",
             "FluxLayerDiffuseConditioningFix",
             "FluxLayerDiffuseDecoderSimple",
             "FluxLayerDiffuseEmptyConditioning",
             "FluxLayerDiffuseInfo",
             "FluxLayerDiffuseStandaloneLoader",
-            "LatentColorMatch",
-            "LatentColorMatchSimple",
-            "LatentImageAdjust",
+            "LLMDeforumGenerator",
+            "LatentColorMatchSimple_DRE",
+            "LatentColorMatch_DRE",
+            "LatentImageAdjust_DRE",
             "LoadImageSequence",
             "LoadImageSequenceInfo",
             "MultiImageAspectRatioComposer",
@@ -1719,6 +1726,9 @@
             "PreviewTransparentImage",
             "SaveTransparentImage",
             "TransparentImageInfo",
+            "UTF8CaptionSaver",
+            "UniversalNNLatentUpscale",
+            "UniversalNNLatentUpscale_DRE",
             "WanNNLatentUpscaler"
         ],
         {
@@ -4224,12 +4234,46 @@
     ],
     "https://github.com/PeterMikhai/Doom_Flux_NodePack": [
         [
-            "DoomFluxInpaintSampler",
-            "DoomFluxLoader",
-            "DoomFluxLoader_GGUF",
-            "DoomFluxSampler",
-            "DoomFluxSamplerAdvanced",
-            "DoomFluxSuperLoader"
+            "DOOM_TRANSLATE",
+            "DoomActionPrompter",
+            "DoomConstructor",
+            "DoomEditPrompts",
+            "DoomFlux1InpaintSampler",
+            "DoomFlux1Loader_GGUFwan",
+            "DoomFlux1Sampler",
+            "DoomFlux1SamplerAdvanced",
+            "DoomFlux2I2ISampler",
+            "DoomFlux2Sampler",
+            "DoomFluxKontextPrompts",
+            "DoomGetImageSizeNode",
+            "DoomImageLoader",
+            "DoomImageResize",
+            "DoomImageRouter",
+            "DoomIndexPairCounter",
+            "DoomKrea2Sampler",
+            "DoomMultiPromptLoader",
+            "DoomPromptBuilder",
+            "DoomPromptSave",
+            "DoomRandomPrompt",
+            "DoomResolutionFromMPNode",
+            "DoomSaveUltimate",
+            "DoomSuperLoader",
+            "DoomTextEnter",
+            "DoomTextShow",
+            "DoomWordbook",
+            "Doom_LTXLoader",
+            "Doom_LTXSampler",
+            "Doom_LoraStack",
+            "Doom_MarkdownNote",
+            "Doom_MinimaxH3Loader",
+            "Doom_MinimaxH3Sampler",
+            "Doom_ReferenceFree",
+            "Doom_SaveVideoFree",
+            "FluxKontextPadForOutpaint",
+            "FluxRestoreAndCrop",
+            "KontextConstructor_RU",
+            "KontextPrompterUltimate_RU",
+            "KontextWordbook_RU"
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
@@ -11493,7 +11537,12 @@
     ],
     "https://github.com/kuschanow/ComfyUI-SD-Slicer": [
         [
-            "SdSlicer"
+            "SDSlicerAnyMerge",
+            "SDSlicerLayerMerge",
+            "SDSlicerLoadLoRA",
+            "SDSlicerSaveAny",
+            "SDSlicerSaveModel",
+            "SDSlicerVAEMerge"
         ],
         {
             "title_aux": "ComfyUI-SD-Slicer"
@@ -11759,9 +11808,11 @@
             "LoraName",
             "MaskToSAMCoords",
             "MaskToSAMCoordsV2",
+            "MiniMaxH3ImageToVideo2Pass",
             "MorseCode",
             "ParameterUnpacker",
             "PoseReformer",
+            "PreviewStringBypass",
             "QueueHandler",
             "RemoteClipClient",
             "RemoteClipServer",
@@ -13810,8 +13861,6 @@
             "Loop Calculator Audio [Eclipse]",
             "Loop Calculator [Eclipse]",
             "Loop Image Selector [Eclipse]",
-            "Lora Stack [Eclipse]",
-            "Lora Stack apply [Eclipse]",
             "Mask Passer [Eclipse]",
             "Mask to SEGS [Eclipse]",
             "Merge Strings [Eclipse]",
@@ -13822,8 +13871,6 @@
             "Mute / Bypass Repeater [Eclipse]",
             "Node Collector [Eclipse]",
             "None [Eclipse]",
-            "Nunchaku PuLID Apply [Eclipse]",
-            "Nunchaku PuLID Loader [Eclipse]",
             "Pipe 12CH Any [Eclipse]",
             "Pipe 24CH Any [Eclipse]",
             "Pipe 36CH Any [Eclipse]",
@@ -14460,7 +14507,15 @@
     ],
     "https://github.com/sickbraintwo/WextraX": [
         [
+            "h3CollectScenes",
+            "h3Conditioning",
+            "h3HandoffTail",
+            "h3LoopRange",
+            "h3PromptComposer",
+            "h3Scene",
+            "h3SceneConditioning",
             "loraName",
+            "saveWimage",
             "tag"
         ],
         {
