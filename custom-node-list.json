@@ -61399,11 +61399,11 @@
         },
         {
             "author": "yuyuki",
-            "title": "MiniMax H3 Novel",
-            "id": "minimax-h3-novel",
-            "reference": "https://github.com/yuyuki/minimax_h3_novel_pipeline",
+            "title": "MiniMax H3 Novel Pipeline",
+            "id": "comfyui-minimax_h3_novel_pipeline",
+            "reference": "https://github.com/yuyuki/ComfyUI-Minimax_H3_Novel_Pipeline.git",
             "files": [
-                "https://github.com/yuyuki/minimax_h3_novel_pipeline"
+                "https://github.com/yuyuki/ComfyUI-Minimax_H3_Novel_Pipeline.git"
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes that turn novel chapters into continuity-aware MiniMax H3 prompts using an LM Studio OpenAI-compatible server."
